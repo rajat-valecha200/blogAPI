@@ -2,7 +2,6 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 dotenv.config();
 const DB_URL = process.env.DBURL;
-// const DB_URL = "mongodb+srv://rajatvalecha200:yF7veunWJYCPN8K0@cluster0.fhfsgf3.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 
 const connectDB = async () => {
     try{
